@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>public-template-gltf-2-buttons</title>
+    <title>History of RJC</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
@@ -33,7 +33,7 @@
   don't remove the quotes without the brackets of alert -->
   <script>
     function description_text() {
-      alert("this is a description\nthis is second para description\n\nthis is third para with a line space");
+      alert("Why does this only date for less than 20 years when RI is 10x that age? Simply put, this model of RJC was discontinued in 2001 😔💀🪦.\nOne of the few remnants from this era, a history of RJC was a batch project which Mr Tan Chun Wee worked on with his fellow CCA members in what used to be the old History section of HSTA!");
     }
   </script>
   <!-- edit message to be shown when description button is pressed
@@ -41,7 +41,7 @@
   don't remove the quotes without the brackets of alert -->
   <script>
     function next_location_text() {
-      alert("this is a the next location\nthis is second para location\n\nthis is third para location with a line space");
+      alert("At the Y56 Stadium\n");
     }
   </script>
 
@@ -64,7 +64,7 @@
       id="scene"
     >
       <a-assets>
-        <a-asset-item id="axes-gltf" src="axes.gltf"></a-asset-item>
+        <a-asset-item id="History of RJC (drkoh edited)-gltf" src="history of RJC (drkoh edited).glb"></a-asset-item>
       </a-assets>
 
       <a-marker
@@ -87,11 +87,11 @@
         </a-sky>        
         
       <a-entity
-        id="axes-model"
-        gltf-model="#axes-gltf"
+        id="History of RJC (drkoh edited)-model"
+        gltf-model="#History of RJC (drkoh edited)-gltf"
         position="0 0 0"
         rotation="0 0 0"
-        scale="0.05 0.05 0.05"
+        scale="1 1 1"
         class="clickable"
         gesture-handler
         >
